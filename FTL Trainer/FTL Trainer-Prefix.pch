@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FTL Trainer' target in the 'FTL Trainer' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
