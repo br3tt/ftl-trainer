@@ -27,6 +27,9 @@
                 proc = [proc init:pid];
                 
                 NSLog(@"FTL Found: %i", pid);
+                
+                int baseptr = [proc readInt: 0x1F2C5C];
+                NSLog(@"baseptr: %x", baseptr);
             }
         
         }
@@ -43,6 +46,10 @@
 
 - (IBAction)missles:(id)sender {
     //0x799A58
+    int baseptr = [proc readInt: 0x1F2C5C] + 0x34;
+    int missleptr = [proc readInt:baseptr] + 0x168;
+    int missles = [proc readInt:missleptr];
+    [proc writeInt:missleptr :missles + 999];
 }
 
 - (IBAction)droneparts:(id)sender {
@@ -54,7 +61,6 @@
     int baseptr = [proc readInt: 0x1F2C5C] + 0x370;
     int credz = [proc readInt:baseptr];
     [proc writeInt:baseptr :credz + 999];
-    NSLog(@"baseptr: %x", baseptr);
     //[_credits setStringValue:[NSString stringWithFormat:@"%i", credz]];
 }
 @end
