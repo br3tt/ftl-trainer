@@ -13,7 +13,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "60"
          endingLineNumber = "60"
-         landmarkName = "VMWriteBytes()"
+         landmarkName = "VMWriteData()"
          landmarkType = "7">
       </FileBreakpoint>
       <FileBreakpoint
@@ -27,6 +27,19 @@
          startingLineNumber = "34"
          endingLineNumber = "34"
          landmarkName = "-writeInt::"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "MasterViewController.m"
+         timestampString = "392530477.624422"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "75"
+         endingLineNumber = "75"
+         landmarkName = "-github:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

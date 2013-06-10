@@ -17,5 +17,8 @@
 - (IBAction)missles:(NSButton *)sender;
 - (IBAction)droneparts:(NSButton *)sender;
 - (IBAction)credits:(NSButton *)sender;
+- (IBAction)repair:(id)sender;
+- (IBAction)github:(id)sender;
+@property (weak) IBOutlet NSButton *githubButton;
 
 @end

@@ -19,6 +19,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Initialization code here.
+        [_githubButton addCursorRect:[_githubButton bounds] cursor:[NSCursor pointingHandCursor]];
+        
         NSArray *runningApplicationsList = [[NSWorkspace sharedWorkspace] runningApplications];
         for (id object in runningApplicationsList) {
             if ([[object bundleIdentifier] isEqual:@"subset.FTL"]) {
@@ -62,5 +64,15 @@
     int credz = [proc readInt:baseptr];
     [proc writeInt:baseptr :credz + 999];
     //[_credits setStringValue:[NSString stringWithFormat:@"%i", credz]];
+}
+
+- (IBAction)repair:(id)sender {
+    int baseptr = [proc readInt: 0x1F2C5C] + 0xDC;
+    [proc writeInt:baseptr :30];
+}
+
+- (IBAction)github:(id)sender {
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://github.com/br3tt"]];
+    
 }
 @end

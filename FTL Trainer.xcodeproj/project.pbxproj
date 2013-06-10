@@ -10,12 +10,12 @@
 		8B4BA17F17614E0A00426FEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4BA17E17614E0A00426FEA /* Cocoa.framework */; };
 		8B4BA18917614E0A00426FEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B4BA18717614E0A00426FEA /* InfoPlist.strings */; };
 		8B4BA18B17614E0A00426FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4BA18A17614E0A00426FEA /* main.m */; };
-		8B4BA18F17614E0A00426FEA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4BA18D17614E0A00426FEA /* Credits.rtf */; };
 		8B4BA19217614E0A00426FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4BA19117614E0A00426FEA /* AppDelegate.m */; };
 		8B4BA19517614E0A00426FEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4BA19317614E0A00426FEA /* MainMenu.xib */; };
 		8B4BA19E17614ED300426FEA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4BA19C17614ED300426FEA /* MasterViewController.m */; };
 		8B4BA19F17614ED300426FEA /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4BA19D17614ED300426FEA /* MasterViewController.xib */; };
 		8B4BE8831762AB6600E71F11 /* ProcessManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4BE8821762AB6600E71F11 /* ProcessManipulator.m */; };
+		8B75F80F17658BEA00885B95 /* HandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B75F80E17658BEA00885B95 /* HandButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,6 @@
 		8B4BA18817614E0A00426FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B4BA18A17614E0A00426FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B4BA18C17614E0A00426FEA /* FTL Trainer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTL Trainer-Prefix.pch"; sourceTree = "<group>"; };
-		8B4BA18E17614E0A00426FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		8B4BA19017614E0A00426FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B4BA19117614E0A00426FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8B4BA19417614E0A00426FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -37,6 +36,9 @@
 		8B4BA19D17614ED300426FEA /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 		8B4BE8811762AB6600E71F11 /* ProcessManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessManipulator.h; sourceTree = "<group>"; };
 		8B4BE8821762AB6600E71F11 /* ProcessManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessManipulator.m; sourceTree = "<group>"; };
+		8B75F80C1765835E00885B95 /* FTL Trainer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "FTL Trainer.entitlements"; sourceTree = "<group>"; };
+		8B75F80D17658BEA00885B95 /* HandButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandButton.h; sourceTree = "<group>"; };
+		8B75F80E17658BEA00885B95 /* HandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,8 @@
 				8B4BE8811762AB6600E71F11 /* ProcessManipulator.h */,
 				8B4BE8821762AB6600E71F11 /* ProcessManipulator.m */,
 				8B4BA19D17614ED300426FEA /* MasterViewController.xib */,
+				8B75F80D17658BEA00885B95 /* HandButton.h */,
+				8B75F80E17658BEA00885B95 /* HandButton.m */,
 				8B4BA18417614E0A00426FEA /* FTL Trainer */,
 				8B4BA17D17614E0A00426FEA /* Frameworks */,
 				8B4BA17C17614E0A00426FEA /* Products */,
@@ -95,6 +99,7 @@
 		8B4BA18417614E0A00426FEA /* FTL Trainer */ = {
 			isa = PBXGroup;
 			children = (
+				8B75F80C1765835E00885B95 /* FTL Trainer.entitlements */,
 				8B4BA19017614E0A00426FEA /* AppDelegate.h */,
 				8B4BA19117614E0A00426FEA /* AppDelegate.m */,
 				8B4BA19317614E0A00426FEA /* MainMenu.xib */,
@@ -110,7 +115,6 @@
 				8B4BA18717614E0A00426FEA /* InfoPlist.strings */,
 				8B4BA18A17614E0A00426FEA /* main.m */,
 				8B4BA18C17614E0A00426FEA /* FTL Trainer-Prefix.pch */,
-				8B4BA18D17614E0A00426FEA /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,7 +171,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4BA18917614E0A00426FEA /* InfoPlist.strings in Resources */,
-				8B4BA18F17614E0A00426FEA /* Credits.rtf in Resources */,
 				8B4BA19517614E0A00426FEA /* MainMenu.xib in Resources */,
 				8B4BA19F17614ED300426FEA /* MasterViewController.xib in Resources */,
 			);
@@ -184,6 +187,7 @@
 				8B4BA19217614E0A00426FEA /* AppDelegate.m in Sources */,
 				8B4BA19E17614ED300426FEA /* MasterViewController.m in Sources */,
 				8B4BE8831762AB6600E71F11 /* ProcessManipulator.m in Sources */,
+				8B75F80F17658BEA00885B95 /* HandButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,14 +200,6 @@
 				8B4BA18817614E0A00426FEA /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8B4BA18D17614E0A00426FEA /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B4BA18E17614E0A00426FEA /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		8B4BA19317614E0A00426FEA /* MainMenu.xib */ = {
@@ -279,6 +275,7 @@
 		8B4BA19917614E0A00426FEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FTL Trainer/FTL Trainer-Prefix.pch";
@@ -291,6 +288,7 @@
 		8B4BA19A17614E0A00426FEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FTL Trainer/FTL Trainer-Prefix.pch";
