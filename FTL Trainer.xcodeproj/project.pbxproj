@@ -16,6 +16,7 @@
 		8B4BA19F17614ED300426FEA /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4BA19D17614ED300426FEA /* MasterViewController.xib */; };
 		8B4BE8831762AB6600E71F11 /* ProcessManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4BE8821762AB6600E71F11 /* ProcessManipulator.m */; };
 		8B75F80F17658BEA00885B95 /* HandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B75F80E17658BEA00885B95 /* HandButton.m */; };
+		8B8C0E3317667438000BE3B1 /* br3tt.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C0E3217667438000BE3B1 /* br3tt.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		8B75F80C1765835E00885B95 /* FTL Trainer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "FTL Trainer.entitlements"; sourceTree = "<group>"; };
 		8B75F80D17658BEA00885B95 /* HandButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandButton.h; sourceTree = "<group>"; };
 		8B75F80E17658BEA00885B95 /* HandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandButton.m; sourceTree = "<group>"; };
+		8B8C0E3217667438000BE3B1 /* br3tt.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = br3tt.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		8B4BA18517614E0A00426FEA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B8C0E3217667438000BE3B1 /* br3tt.iconset */,
 				8B4BA18617614E0A00426FEA /* FTL Trainer-Info.plist */,
 				8B4BA18717614E0A00426FEA /* InfoPlist.strings */,
 				8B4BA18A17614E0A00426FEA /* main.m */,
@@ -173,6 +176,7 @@
 				8B4BA18917614E0A00426FEA /* InfoPlist.strings in Resources */,
 				8B4BA19517614E0A00426FEA /* MainMenu.xib in Resources */,
 				8B4BA19F17614ED300426FEA /* MasterViewController.xib in Resources */,
+				8B8C0E3317667438000BE3B1 /* br3tt.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
