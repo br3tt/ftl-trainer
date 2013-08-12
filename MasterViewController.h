@@ -9,8 +9,11 @@
 #import <Cocoa/Cocoa.h>
 #include "ProcessManipulator.h"
 
+#define FTL_BASE_PTR 0x1F2C5C
+
 @interface MasterViewController : NSViewController {
     ProcessManipulator *proc;
+    int baseptr;
 }
 
 - (IBAction)fuel:(NSButton *)sender;
@@ -19,6 +22,5 @@
 - (IBAction)credits:(NSButton *)sender;
 - (IBAction)repair:(id)sender;
 - (IBAction)github:(id)sender;
-@property (weak) IBOutlet NSButton *githubButton;
 
 @end
