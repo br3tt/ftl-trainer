@@ -15,6 +15,6 @@ give +999 scrap
 
 fix hull
 
-usage:
+## usage:
 
 Start FTL, then launch this app. Must be run as root. 
