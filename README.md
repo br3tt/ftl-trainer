@@ -14,3 +14,7 @@ give +999 drone parts
 give +999 scrap
 
 fix hull
+
+usage:
+
+Start FTL, then launch this app. Must be run as root. 
