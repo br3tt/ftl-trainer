@@ -1,7 +1,7 @@
 ftl-trainer
 ===========
 
-A resource hack for the game FTL.
+A resource hack for the game FTL. My first game cheat written for osx, yay.
 
 Features:
 
